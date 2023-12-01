@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 
 export default function Navbar() {
   const router = useRouter();
-  const [data, setData] = useState<string | undefined>(undefined);
+  const [data, setData] = useState();
 
   const checkLogin = async () => {
     try {
@@ -15,7 +15,7 @@ export default function Navbar() {
           Accept: "application/json",
           "Content-Type": "application/json", 
         },
-        // credentials: "include",
+        credentials: "include",
       });
       const data = await res.json();
       setData(data);
@@ -32,10 +32,10 @@ export default function Navbar() {
           Accept: "application/json",
           "Content-Type": "application/json",
         },
-        // credentials: "include",
+        credentials: "include",
       });
 
-      setData(undefined);
+      setData(null);
       router.push('/login');
     } catch (error) {
       console.log(error);
