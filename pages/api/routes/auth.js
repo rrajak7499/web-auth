@@ -42,7 +42,6 @@ auth.post("/signin", async (req, res) => {
       if (!passwordMatch) {
         return res.status(400).json({ error: "Invalid credentials" });
       }
-
       const token = jwt.sign(
         { id: userLogin.id } as JwtPayload,
         process.env.SECRET_KEY!,
@@ -110,7 +109,7 @@ auth.post("/register", async (req, res) => {
   }
 });
 
-const authenticate = async (req, res, next) => {
+const authenticate = async (req: req, res: res, next: next) => {
   const token = req.cookies.jwtoken;
   console.log("token", token);
   try {

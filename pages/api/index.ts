@@ -10,7 +10,7 @@ const app = express()
 app.use(cookieParser());
 app.use(cors({
     origin: "http://localhost:3000",
-    accessControlAllowOrigin: true,
+    // accessControlAllowOrigin: true,
     credentials: true,
   }));
 app.use(express.json())
