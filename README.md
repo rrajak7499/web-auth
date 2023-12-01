@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -26,6 +24,31 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Important Websites
 
  - https://www.prisma.io/docs/reference/api-reference/command-reference
+ 
+# Screenshots :
+
+### Web Page :
+- Welcome Screen
+    ![](https://i.ibb.co/k9JMs1H/1.png)
+- Sign Up Page
+    ![](https://i.ibb.co/3y46gtn/2.png)
+- Sucessfully Regestration Prompt
+    ![](https://i.ibb.co/3S253wQ/4.png)
+- Login Page
+    ![](https://i.ibb.co/mS8xTVg/5.png)
+- Sucessfully Login Prompt
+    ![](https://i.ibb.co/QrRb4QW/6.png)
+- User Home Page
+    ![](https://i.ibb.co/Ks5GBS0/7.png)
+
+### Web Page :
+- Database Home Page
+    ![](https://i.ibb.co/bBV2BXg/8.png)
+- User Details
+    ![](https://i.ibb.co/j3v4RNk/9.png)
+- User Tokens
+    ![](https://i.ibb.co/JBNWLbX/10.png)
+
 
 ## Learn More
 
