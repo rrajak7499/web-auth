@@ -41,7 +41,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - User Home Page
     ![](https://i.ibb.co/Ks5GBS0/7.png)
 
-### Web Page :
+### Database Page :
 - Database Home Page
     ![](https://i.ibb.co/bBV2BXg/8.png)
 - User Details
